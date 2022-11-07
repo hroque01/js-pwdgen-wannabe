@@ -2,9 +2,9 @@
 
 
 // Chiediamo all'utente il suo nome
-let nomedellapersona = prompt ("Inserici il tuo nome!");
+let nomeDellaPersona = prompt ("Inserici il tuo nome!");
 
-console.log(nomedellapersona);
+console.log(nomeDellaPersona);
 
 // Chiediamo all'utente il suo cognome
 let cognome = prompt ("Inserici il tuo Cognome!");
@@ -22,7 +22,7 @@ const numero = 21;
 console.log(numero);
 
 // Prendiamo un numero randomico costante
-let password = nomedellapersona + cognome + colore + numero;
+let password = nomeDellaPersona + cognome + colore + numero;
 
 // Output
 console.log(password);
